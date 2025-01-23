@@ -1,9 +1,33 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Avast/131.0.0.0" version="26.0.7">
   <diagram name="Page-1" id="oZw_HMmMiBHEvVDpfueG">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tf-2iotETb74wZCwkg5V-3" value="Analyse_livraison" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="200" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tf-2iotETb74wZCwkg5V-4" value="montant_transport&lt;div&gt;montant_total&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="tf-2iotETb74wZCwkg5V-3">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tf-2iotETb74wZCwkg5V-6" value="" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="tf-2iotETb74wZCwkg5V-4" target="tf-2iotETb74wZCwkg5V-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="370" y="270" as="sourcePoint" />
+            <mxPoint x="380" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf-2iotETb74wZCwkg5V-7" value="Livreur" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="140" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tf-2iotETb74wZCwkg5V-10" value="" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;exitX=1;exitY=0.149;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="tf-2iotETb74wZCwkg5V-9">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="270" y="256.42999999999995" as="sourcePoint" />
+            <mxPoint x="330" y="336" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf-2iotETb74wZCwkg5V-9" value="Produit" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="304" y="350" width="110" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
