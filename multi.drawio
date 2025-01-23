@@ -10,23 +10,40 @@
         <mxCell id="tf-2iotETb74wZCwkg5V-4" value="montant_transport&lt;div&gt;montant_total&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="tf-2iotETb74wZCwkg5V-3">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="tf-2iotETb74wZCwkg5V-6" value="" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="tf-2iotETb74wZCwkg5V-4" target="tf-2iotETb74wZCwkg5V-7">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="370" y="270" as="sourcePoint" />
-            <mxPoint x="380" y="190" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="tf-2iotETb74wZCwkg5V-7" value="Livreur" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="300" y="140" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="tf-2iotETb74wZCwkg5V-10" value="" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;exitX=1;exitY=0.149;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="tf-2iotETb74wZCwkg5V-9">
+        <mxCell id="tf-2iotETb74wZCwkg5V-10" value="" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tf-2iotETb74wZCwkg5V-9">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="270" y="256.42999999999995" as="sourcePoint" />
-            <mxPoint x="330" y="336" as="targetPoint" />
+            <mxPoint x="530" y="375" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tf-2iotETb74wZCwkg5V-9" value="Produit" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="304" y="350" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tf-2iotETb74wZCwkg5V-11" value="" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="410" y="165" as="sourcePoint" />
+            <mxPoint x="516" y="164.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf-2iotETb74wZCwkg5V-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tf-2iotETb74wZCwkg5V-4" target="tf-2iotETb74wZCwkg5V-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="240" />
+              <mxPoint x="360" y="240" />
+              <mxPoint x="360" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf-2iotETb74wZCwkg5V-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tf-2iotETb74wZCwkg5V-4" target="tf-2iotETb74wZCwkg5V-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="290" />
+              <mxPoint x="360" y="290" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
